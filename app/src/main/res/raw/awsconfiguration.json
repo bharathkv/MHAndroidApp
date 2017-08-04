@@ -1,0 +1,41 @@
+ {
+     "AWSMobileHub" : {
+         "ProjectClientId" : "MobileHub 21b465fc-b53a-4215-b58d-448128070f82 aws-my-sample-app-ios-swift-v0.18"
+     },
+     "version" : "1.0",
+     
+     "CredentialsProvider" : {
+         "CognitoIdentity" : {
+             "Default" : {
+                 "PoolId" : "us-east-1:asd07-asd23-d2asd-dasd2",
+                 "Region" : "us-east-1"
+             }
+         }
+     },
+     
+     "PinpointAnalytics" : {
+         "Default" : {
+             "AppId" : "PinpointAppID",
+             "Region" : "us-east-1"
+         }
+     },
+     "PinpointTargeting" : {
+         "Default" : {
+             "Region" : "us-east-1"
+         }
+     },
+     
+     "S3TransferManager" : {
+         "Default" : {
+             "S3Bucket" : "BucketName",
+             "Region" : "us-east-1"
+         }
+     },
+     
+     "S3TransferUtility" : {
+         "Default" : {
+             "S3Bucket" : "BucketName",
+             "Region" : "us-east-1"
+         }
+     }
+ }
